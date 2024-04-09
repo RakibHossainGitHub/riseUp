@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon_link_start -->
+    <link rel="icon" href="./assets/img/favicon.ico" />
+    <!-- favicon_link_end -->
+    <title>RiseUp</title>
+    <!-- bootstrap - link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- font - awesome - link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <!-- aos - link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- my- style.css -link -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- preloader-start
+    =========================== -->
+    <div id="preloader"></div>
+    <!-- preloader-end
+    =========================== -->
+
+    <!-- header - section - start -->
+    <header class="navigation-wrap">
+      <!-- nev-bar-start -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid nav_div">
+          <!-- logo-start -->
+          <div class="logo_div"><img src="./assets/img/logo.png" alt="" /></div>
+          <!-- logo-end -->
+          <!-- nev-bar-toggler-start -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars-staggered"></i>
+          </button>
+          <!-- nev-bar-toggler-end -->
+          <!-- nev-bar-item-start -->
+          <div
+            class="collapse navbar-collapse text-center"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!-- nev-bar-item-end -->
+        </div>
+      </nav>
+      <!-- nev-bar-end -->
+    </header>
+    <!-- header - section - end -->
+    <!-- main - section - start -->
+    <main>
+      <!-- ------------hero--------- -->
+      <div class="container-fluid">
+        <div class="row hero">
+          <div class="hero_text">
+            <h2 data-aos="flip-left" class="text-center">TAKE YOUR SERVICES</h2>
+            <h4 data-aos="flip-left" class="text-center">BUIELD YOUR DREAM</h4>
+          </div>
+          <img class="p-0" src="./assets/img/home/hero_img.png" alt="" />
+          <div class="container-fluid d-none d-md-block">
+            <div data-aos="fade-up" class="row justify-content-center hero_all_card">
+              <div class="col-sm-6 col-lg-2 col-md-3 mb-3 mb-sm-0 m-auto">
+                <div class="card shadow-lg">
+                  <div class="card-body">
+                    <img
+                      class="ms-3 mb-2"
+                      src="./assets/img/home/idea 1.png"
+                      alt=""
+                    />
+                    <h5 class="card-title text-nowrap">Graphic Design</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-2 col-md-3 mb-3 mb-sm-0 m-auto">
+                <div class="card shadow-lg">
+                  <div class="card-body">
+                    <img
+                      class="ms-3 mb-2"
+                      src="./assets/img/home/layers 1.png"
+                      alt=""
+                    />
+                    <h5 class="card-title text-nowrap">Software Dev</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-2 col-md-3 mb-3 mb-sm-0 m-auto">
+                <div class="card shadow-lg">
+                  <div class="card-body">
+                    <img
+                      class="ms-3 mb-2"
+                      src="./assets/img/home/code 1.png"
+                      alt=""
+                    />
+                    <h5 class="card-title text-nowrap text-center">
+                      Website Dev
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-sm-6 col-lg-2 col-md-3 mb-3 mb-sm-0 m-auto d-md-none d-lg-block"
+              >
+                <div class="card shadow-lg">
+                  <div class="card-body">
+                    <img
+                      class="ms-3 mb-2"
+                      src="./assets/img/home/ui-ux 1.png"
+                      alt=""
+                    />
+                    <h5 class="card-title text-nowrap text-center">
+                      UI/UX Design
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-2 col-md-3 mb-3 mb-sm-0 m-auto">
+                <div class="card shadow-lg">
+                  <div class="card-body">
+                    <img
+                      class="ms-3 mb-2"
+                      src="./assets/img/home/bullhorn 1.png"
+                      alt=""
+                    />
+                    <h5 class="card-title text-center">Digital Marketing</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- --------------hero-about----------- -->
+      <div class="container-fluid hero_about m-0 pb-5">
+        <div class="row">
+          <div data-aos="flip-left" class="col-12 col-md-7 order-2 order-md-1">
+            <h1>About Us.....</h1>
+            <p>
+              Since our inception, our fundamental vision and mission have
+              revolved around making a significant impact in the IT industry and
+              fostering the development of skilled professionals by facilitating
+              the growth of IT careers. Over the past year, RiseUP IT has
+              remained steadfast in our pursuit, blending expertise with
+              innovation to carve out a distinctive niche within the IT sector.
+              Moreover, we stand by you in navigating the realms of freelancing
+              and advancing your career within the dynamic landscape of the IT
+              industry.
+            </p>
+            <button class="main-btn me-4">Read More</button>
+            <button class="sec-btn">Contact US</button>
+          </div>
+          <div data-aos="flip-right" class="col-12 col-md-5 mt-md-5 order-1 order-md-2">
+            <img
+              class="img-fluid mt-0 rounded-5 "
+              src="./assets/img/home/image 1.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <!-- ------------------hero-services---------------- -->
+      <div class="container-fluid hero_services">
+        <h3 data-aos="fade-down" class="text-center pt-5 text-danger">Our Services</h3>
+        <div data-aos="fade-down" class="ser_line m-auto"></div>
+        <p data-aos="fade-down" class="text-center mt-5 mb-5">
+          For the past three years, Rise UP IT has been tirelessly leveraging a
+          blend of expertise and creativity to carve out a distinctive role
+          within the IT sector.
+        </p>
+        <div data-aos="fade-up" class="row d-flex justify-content-center">
+          <div class="col-10 col-md-4 col-lg-3 mb-3 m-auto">
+            <div class="card shadow-lg">
+              <div class="card-body mx-auto">
+                <img
+                  class="ms-3 mb-2"
+                  src="./assets/img/home/idea 1.png"
+                  alt=""
+                />
+                <h5 class="card-title text-nowrap">Graphic Design</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 col-lg-3 mb-3 m-auto">
+            <div class="card shadow-lg">
+              <div class="card-body mx-auto">
+                <img
+                  class="ms-3 mb-2"
+                  src="./assets/img/home/layers 1.png"
+                  alt=""
+                />
+                <h5 class="card-title text-nowrap">Software Dev</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 col-lg-3 mb-3 m-auto">
+            <div class="card shadow-lg">
+              <div class="card-body mx-auto">
+                <img
+                  class="ms-3 mb-2"
+                  src="./assets/img/home/code 1.png"
+                  alt=""
+                />
+                <h5 class="card-title text-nowrap text-center">Website Dev</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 col-lg-3 mb-3 m-auto">
+            <div class="card shadow-lg">
+              <div class="card-body mx-auto">
+                <img
+                  class="ms-3 mb-2"
+                  src="./assets/img/home/ui-ux 1.png"
+                  alt=""
+                />
+                <h5 class="card-title text-nowrap text-center">UI/UX Design</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 col-lg-3 mb-3">
+            <div class="card shadow-lg">
+              <div class="card-body mx-auto">
+                <img
+                  class="ms-3 mb-2"
+                  src="./assets/img/home/bullhorn 1.png"
+                  alt=""
+                />
+                <h5 class="card-title text-center">Digital Marketing</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 col-lg-3 mb-3">
+            <div class="card shadow-lg">
+              <div class="card-body mx-auto">
+                <img
+                  class="ms-3 mb-2"
+                  src="./assets/img/home/search-engine-optimization 1.png"
+                  alt=""
+                />
+                <h5 class="card-title text-center">SEO</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- --------------hero-work---------- -->
+      <div class="container-fluid">
+        <h2 data-aos="fade-right" class="text-danger mt-5 mb-4">Our Work......</h2>
+        <div class="our_works" data-aos="fade-right">
+          <div>
+            <h4 class="text-dark">Software</h4>
+            <div></div>
+          </div>
+          <div>
+            <h4 class="text-dark">Website</h4>
+            <div></div>
+          </div>
+          <div>
+            <h4 class="text-dark">Design</h4>
+            <div></div>
+          </div>
+          <div>
+            <h4 class="text-dark">UI/UX</h4>
+            <div></div>
+          </div>
+        </div>
+        <div class="row justify-content-center our_works_card_row">
+          <div class="col-10 col-md-4 col-lg-3 mb-3" data-aos="flip-right">
+            <div class="card shadow-lg">
+              <div class="card-body mx-auto">
+                <img
+                  class="ms-3 mb-2"
+                  src="./assets/img/home/search-engine-optimization 1.png"
+                  alt=""
+                />
+                <h5 class="card-title text-center">SEO</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 col-lg-3 mb-3" data-aos="flip-right">
+            <div class="card shadow-lg">
+              <div class="card-body mx-auto">
+                <img
+                  class="ms-3 mb-2"
+                  src="./assets/img/home/search-engine-optimization 1.png"
+                  alt=""
+                />
+                <h5 class="card-title text-center">SEO</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 col-lg-3 mb-3" data-aos="flip-right">
+            <div class="card shadow-lg">
+              <div class="card-body mx-auto">
+                <img
+                  class="ms-3 mb-2"
+                  src="./assets/img/home/search-engine-optimization 1.png"
+                  alt=""
+                />
+                <h5 class="card-title text-center">SEO</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 col-lg-3 mb-3" data-aos="flip-right">
+            <div class="card shadow-lg">
+              <div class="card-body mx-auto">
+                <img
+                  class="ms-3 mb-2"
+                  src="./assets/img/home/search-engine-optimization 1.png"
+                  alt=""
+                />
+                <h5 class="card-title text-center">SEO</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 col-lg-3 mb-3" data-aos="flip-right">
+            <div class="card shadow-lg">
+              <div class="card-body mx-auto">
+                <img
+                  class="ms-3 mb-2"
+                  src="./assets/img/home/search-engine-optimization 1.png"
+                  alt=""
+                />
+                <h5 class="card-title text-center">SEO</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 col-lg-3 mb-3" data-aos="flip-right">
+            <div class="card shadow-lg">
+              <div class="card-body mx-auto">
+                <img
+                  class="ms-3 mb-2"
+                  src="./assets/img/home/search-engine-optimization 1.png"
+                  alt=""
+                />
+                <h5 class="card-title text-center">SEO</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <button data-aos="fade-down" class="sec-btn mt-4 mb-4">See More</button>
+        </div>
+      </div>
+      <!-- ---------------reviews-------------- -->
+      <div class="reviews">
+        <div data-aos="fade-up"
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item carousel_box active">
+              <div
+                class="d-flex flex-column flex-md-row justify-content-between align-items-center"
+              >
+                <img class="w-25" src="./assets/img/home/review2.jpg" alt="" />
+                <div class="carousel_text">
+                  <div class="m-5 mt-0 mt-md-4">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Deleniti officia quidem vitae sequi necessitatibus.
+                      Ducimus beatae hic amet facilis quae tempora nam odio
+                      architecto odit!
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div>
+                        <h3>web developer</h3>
+                        <p class="">huhui</p>
+                      </div>
+                      <div>
+                        <h3 class="mb-5">hghghfghjh</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel_box">
+              <div
+                class="d-flex flex-column flex-md-row justify-content-center align-items-center"
+              >
+                <img class="w-25" src="./assets/img/home/review2.jpg" alt="" />
+                <div class="carousel_text">
+                  <div class="m-5 mt-0 mt-md-4">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Deleniti officia quidem vitae sequi necessitatibus.
+                      Ducimus beatae hic amet facilis quae tempora nam odio
+                      architecto odit!
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div>
+                        <h3>web developer</h3>
+                        <p>huhui</p>
+                      </div>
+                      <div>
+                        <h3 class="mb-5">hghghfghjh</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </main>
+    <!-- main - section - end -->
+    <!-- footer - section - start -->
+    <footer>
+      <div class="container mt-5 mb-5">
+        <div class="row footer_hero">
+          <div class="col-10 col-md-7 col-lg-6" data-aos="flip-right">
+            <div class="container">
+               <div class="row align-items-center">
+                 <div class="col-3">
+                   <i class="fa-solid fa-location-dot"></i>
+                 </div>
+                 <div class="col-8">
+                    South
+                  Raghabpur,Banglaclinic Goli,<br> Pabna Sadar, Pabna.
+                 </div>
+                 <div class="col-3">
+                   <i class="fa-solid fa-mobile-screen-button"></i>
+                 </div>
+                 <div class="col-8">
+                   <div>01700000000</div>
+                   <div>01900000000</div>
+                 </div>
+                 <div class="col-3">
+                   <i class="fa-solid fa-envelope-open"></i>
+                 </div>
+                 <div class="col-8">
+                    info.riseup@gmail.com
+                 </div>
+               </div>
+            </div>
+          </div>
+          <div class="col-10 col-md-5 col-lg-6" data-aos="flip-left">
+            <img
+              class="img-fluid"
+              src="./assets/img/home/Rectangle 27.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-between bg-danger footer">
+        <div class="align-content-center ms-3 text-white">
+          Copyright 2023 - 2024 &copy RISEUP IT SOLUTION
+        </div>
+        <div class="d-flex justify-content-center align-items-center">
+          <li class="justify-content-center align-content-center me-4">
+            <a href="">
+              <i class="fa-brands fa-square-facebook i1"></i>
+            </a>
+          </li>
+          <li class="align-content-center me-4">
+            <a href="">
+              <i class="fa-brands fa-linkedin i2"></i>
+            </a>
+          </li>
+        </div>
+      </div>
+    </footer>
+    <!-- footer - section - end -->
+    <!-- bootstrap-script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- my-script -->
+    <script src="assets/js/script.js"></script>
+    <!-- aos-script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 130,
+        duration: 1000
+      });
+    </script>
+  </body>
+</html>
