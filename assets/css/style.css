@@ -325,6 +325,9 @@ p {
     font-size: 1.5rem;
   }
 }
+.hero_img{
+  min-height: 50vh;
+}
 .hero {
   .card {
     height: 10rem;
